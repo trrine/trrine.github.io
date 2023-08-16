@@ -29,13 +29,13 @@ nav {
     z-index: 10000;
 }
 
-.nav-links {
+.nav__list {
     display: flex;
     justify-content: space-around;
     width: 600px;
 }
   
-.nav-links a {
+.nav__list a {
     text-decoration: none;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -47,7 +47,7 @@ nav {
     padding-top: 8px;
 }
   
-nav ul li {
+.nav__item {
     list-style-type: none;
 }
   
