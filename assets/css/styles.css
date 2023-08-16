@@ -35,7 +35,7 @@ nav {
     width: 600px;
 }
   
-.nav__list a {
+.nav__item a {
     text-decoration: none;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -45,6 +45,7 @@ nav {
     position: relative;
     padding-bottom: 8px;
     padding-top: 8px;
+    color: pink;
 }
   
 .nav__item {
