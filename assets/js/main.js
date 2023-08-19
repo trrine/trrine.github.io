@@ -8,7 +8,7 @@ function wait(ms) {
     return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-async function typeWord(word, id, delay=100) {
+async function typeWord(word, id, delay) {
     const letters = word.split("");
     let i = 0;
 
@@ -21,7 +21,7 @@ async function typeWord(word, id, delay=100) {
     return;
 }
 
-async function deleteWord(id, delay=100) {
+async function deleteWord(id, delay) {
     const word = document.getElementById(id);
     const letters = word.innerHTML.split("");
     let i = 0;
@@ -34,7 +34,7 @@ async function deleteWord(id, delay=100) {
     }
 }
 
-async function wordAnimation(word, id, delay=100) {
+async function wordAnimation(word, id, delay) {
     while (true) {
         await typeWord(word, id, delay);
         await wait(1500);
