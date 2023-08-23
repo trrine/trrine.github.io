@@ -55,7 +55,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #333333;
     padding-left: 20px;
@@ -71,7 +71,7 @@ h3 {
 }
 
 #intro__h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #333333;
     padding-left: 20px;
     padding-right: 20px;
@@ -101,6 +101,7 @@ h3 {
 
 #name {
     color:#b5a7ff;
+    font-size: 5rem;
 }
 
 #intro {
