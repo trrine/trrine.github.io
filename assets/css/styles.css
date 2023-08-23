@@ -50,7 +50,7 @@ nav {
 
 h1 {
     color: #333333;
-    font-size: 4rem;
+    font-size: 8rem;
     text-align: center;
 }
 
@@ -71,7 +71,7 @@ h3 {
 }
 
 #intro__h1 {
-    font-size: 7rem;
+    font-size: 4rem;
     color: #333333;
     padding-left: 20px;
     padding-right: 20px;
