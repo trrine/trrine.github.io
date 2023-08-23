@@ -50,12 +50,12 @@ nav {
 
 h1 {
     color: #333333;
-    font-size: 4rem;
+    /*font-size: 4rem;*/
     text-align: center;
 }
 
 h2 {
-    font-size: 3rem;
+    /*font-size: 3rem;*/
     font-weight: 500;
     color: #333333;
     padding-left: 20px;
@@ -71,7 +71,7 @@ h3 {
 }
 
 #intro__h1 {
-    font-size: 7rem;
+   /* font-size: 7rem;*/
     color: #333333;
     padding-left: 20px;
     padding-right: 20px;
