@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>👋</text></svg>">  
     <title>Trine</title>
   </head>
   <body>
@@ -145,7 +146,21 @@
     </section>
 <!-- CONTACT SECTION -->
     <section id="contact">
-      <h1 class="section__title">Get In Touch With Me</h1>
+      <h1 class="section__title">Get In Touch</h1>
+      <div id="form__wrapper">
+        <form action="https://formspree.io/f/xaygovzg" method="POST">
+          <div class="input_wrapper">
+            <input type="text" name="name" placeholder="Name" required>
+          </div>
+          <div class="input_wrapper">
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="input_wrapper">
+            <textarea name="message" rows="8" placeholder="Message" required></textarea> 
+          </div>
+          <button type="submit" id="contact__button"></i>Send Email</button>
+        </form>
+      </div>
     </section>
 
     <script src="assets/js/main.js"></script>
