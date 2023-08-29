@@ -313,7 +313,7 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    outline: none;
+    outline-color: #b5a7ff;
 }
 
 input {
