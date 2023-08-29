@@ -59,6 +59,8 @@
           I'm excited to take the leap and continue refining my skills with the right company. 
           <br/>
           My interests include software engineering, full-stack web development, artificial intelligence, and big data. 
+          <br/><br/>
+          <a href="./assets/pdf/trine_CV.pdf" target="_blank" id="resume__link">Check out my resumé &#128269;</a>
         </p>
         <figure>
           <img src="./assets/img/self.jpg" id="self__img">
@@ -68,11 +70,6 @@
           <li class="socials__item"><a href="https://github.com/trrine" target="_blank"><i class="uil uil-github"></i></a></li>
           <li class="socials__item"><a href="mailto:" target="_blank" onmouseover="this.href=getEmailLink()"><i class="uil uil-envelope"></i></a></li>
         </ul>
-      </div>
-      <div id="resume__wrapper">
-        <div id="resume__button">
-          <a href="./assets/pdf/trine_CV.pdf" target="_blank" id="resume__link">Resume</a>
-        </div>
       </div>
       <h3 id="skills__h3">Technical Skills</h3>
       <div id="skills-content">
@@ -143,6 +140,78 @@
 <!-- PROJECTS SECTION -->
     <section id="projects">
       <h1 class="section__title">My Projects</h1>
+      <div id="calanus">
+        <h2 class="project__title">
+          AI-Based Plankton Detection and Length Estimation
+        </h2>
+        <!-- slideshow -->
+        <div class="slideshow__wrapper">
+          <!-- images with caption text -->
+          <div class="slides fade">
+            <img src="assets/img/project-1/project_1_img_1.png">
+            <div class="slideshow__caption">
+              A tool that automates marine research processes by detecting and estimating the length of Calanus (plankton) in images through the use of deep learning and computer vision technology.
+            </div>
+          </div>
+          <div class="slides fade">
+            <img src="assets/img/project-1/project_1_img_2.png">
+            <div class="slideshow__caption">
+              The web application has a simple user interface which allows users to provide a millimeter-to-pixel 
+              ratio (either by typing it as input or using our functionality to calculate it) and upload images for analysis.
+            </div>
+          </div>
+          <div class="slides fade">
+            <img src="assets/img/project-1/project_1_img_3.png">
+            <div class="slideshow__caption">
+              With the ratio calculation functionality, users can upload an image with a reference object, enter the known length of the object in millimeters, 
+              place a point at the start and end of the object, and let our program calculate the ratio which will be used to convert lengths in pixels to lengths in millimeters. 
+            </div>
+          </div>
+          <div class="slides fade">
+            <img src="assets/img/project-1/project_1_img_4.png">
+            <div class="slideshow__caption">
+              The application produces a dataset (textfile) for each image with IDs, estimated length in millimeters, and detection confidence, 
+              along with an image where each detected Calanus is marked with a circle that represents its estimated length and a matching ID. 
+              Users can download a zip with the results.
+            </div>
+          </div>
+          <div class="slides fade">
+            <img src="assets/img/project-1/project_1_img_5.png">
+            <div class="slideshow__caption">
+              A crucial part of the project involved training a custom YOLOv5s model to recognise Calanus. The resulting model is able to detect Calanus of varying sizes with a very high confidence.
+              It has also been trained to not include the tails in the bounding box since the client wanted the tails excluded from the length estimation.
+            </div>
+          </div>
+          <div class="slides fade">
+            <img src="assets/img/project-1/project_1_img_6.png">
+            <div class="slideshow__caption">
+              Accurately estimating the length was a major challenge. Through trial and error, we found that the best approach was to binarize the image, 
+              find the largests contours within the bounding boxes of the detected Calanus, find the minimum enclosing circle of each contour (boxes are not good when dealing with rotated objects),
+              and use the diameter as a representation of the length.
+            </div>
+          </div>
+          <!-- next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <!-- dots -->
+        <div class="dot__section">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+        <div class="project-description">
+          <div class="project-technologies">
+            Made with: Python, JavaScript, Flask, YOLOv5, OpenCV
+          </div>
+          <div class="project__text">
+            safsakfaslfak sflasafsakf aslfaksflasafs akfaslfa ksflasafsak faslfa ksfla ksfla ksfla ksfla ksfla ksfla ksfla ksfla ksfla ksfla ksfla ksfla ksfla
+          </div>
+        </div>
+      </div>
     </section>
 <!-- CONTACT SECTION -->
     <section id="contact">
