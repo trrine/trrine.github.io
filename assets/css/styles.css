@@ -329,6 +329,11 @@ textarea {
     padding-top: 100px;
 }
 
+#contact {
+    min-height: auto;
+    padding-bottom: 120px;
+}
+
 /*==================================================
 PROJECTS SECTION 
 ==================================================*/  
@@ -460,4 +465,18 @@ PROJECTS SECTION
 FOOTER
 ==================================================*/ 
 
-/*test*/
+#footer__links a {
+    padding: 10px;
+}
+
+#footer__links {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#copyright {
+    color:#333333;
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: center;
+}
