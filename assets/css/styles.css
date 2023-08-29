@@ -333,11 +333,8 @@ textarea {
 PROJECTS SECTION 
 ==================================================*/  
 
-#project-1 {
-    padding-top: 50px;
-}
-
 .project__title {
+    font-size: 40px;
     font-weight: bold;
     padding-bottom: 20px;
 }
@@ -348,11 +345,11 @@ PROJECTS SECTION
     margin: auto;
 }
 
-.slides {
+.slides-1, .slides-2 {
     display: none;
 }
 
-.slides img {
+.slides__img {
     width: 100%;
 }
 
@@ -447,7 +444,7 @@ PROJECTS SECTION
 }
 
 .project__section {
-    padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 .project__section .uil {
