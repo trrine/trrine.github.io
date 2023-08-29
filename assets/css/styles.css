@@ -452,6 +452,7 @@ PROJECTS SECTION
 }
 
 .project__button__wrapper {
+    padding-top: 15px;
     text-align: center;
 }
 
