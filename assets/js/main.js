@@ -89,3 +89,29 @@ function currentSlide(n, no) {
 
 showSlides(1, 0);
 showSlides(1, 1);
+
+// SCROLL TO TOP BUTTON
+
+const topButton = document.getElementById("top__button");
+
+function scrollFunc() {
+    let y = window.scrollY;
+
+    if (y > 0) {
+        topButton.className = "show";
+    
+    } else {
+        topButton.className = "hide";
+    }
+}
+
+function scrollToTop() {
+    window.scrollTo({top: 0, behavior: "smooth"});
+}
+
+window.addEventListener("scroll", scrollFunc);
+
+topButton.onclick = function(e) {
+    e.preventDefault();
+    scrollToTop();
+}

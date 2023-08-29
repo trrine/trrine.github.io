@@ -479,3 +479,33 @@ FOOTER
     padding-bottom: 20px;
     text-align: center;
 }
+
+/*==================================================
+TO-TOP BUTTON
+==================================================*/ 
+
+#top__button .uil {
+    font-size: 70px;
+}
+
+#top__button .uil:hover {
+    cursor: pointer;
+}
+
+#top__button {
+    transition: all .25s ease-in-out;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: inline-flex;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.hide {
+    visibility: hidden;
+    opacity: 0;
+}
