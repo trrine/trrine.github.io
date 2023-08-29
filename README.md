@@ -12,7 +12,7 @@ My personal portfolio website showcasing my skills and projects. Currently in pr
 - Social media icons by [IconScout](https://iconscout.com/unicons)
 
 ## TO DO:
-- Implement projects section
+- Add more projects
 - Add form submit success message
 - Add footer
 - Add scroll-to-top button
