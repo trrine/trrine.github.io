@@ -115,3 +115,10 @@ topButton.onclick = function(e) {
     e.preventDefault();
     scrollToTop();
 }
+
+// CLEAR FORM 
+function clearForm() {
+    document.getElementById("name__field").value = "";
+    document.getElementById("email__field").value = "";
+    document.getElementById("message__field").value = "";
+}
