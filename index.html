@@ -310,7 +310,7 @@
     <section id="contact">
       <h1 class="section__title">Get In Touch</h1>
       <div id="form__wrapper">
-        <form action="https://formspree.io/f/xaygovzg" method="POST">
+        <form action="https://formspree.io/f/xaygovzg" method="POST" onsubmit="clearForm()">
           <div class="input_wrapper">
             <input type="text" name="name" placeholder="Name" id="name__field" required>
           </div>
@@ -320,7 +320,7 @@
           <div class="input_wrapper">
             <textarea name="message" rows="8" id="message__field" placeholder="Message" required></textarea> 
           </div>
-          <button type="submit" id="contact__button" onclick="clearForm()"></i>Send Email</button>
+          <button type="submit" id="contact__button"></i>Send Email</button>
         </form>
       </div>
     </section>
