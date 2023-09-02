@@ -13,6 +13,5 @@ My personal portfolio website showcasing my skills and projects. Currently in pr
 
 ## TO DO:
 - Add more projects
-- Add form submit success message
 - Make responsive
 - Add project filtering functionality
