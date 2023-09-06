@@ -12,42 +12,56 @@ function wait(ms) {
     return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-async function typeWord(word, id, delay) {
-    const letters = word.split("");
+async function typeText(text, id, delay) {
+    const chars = text.split("");
     let i = 0;
 
-    while (i < letters.length) {
+    while (i < chars.length) {
         await wait(delay);
-        document.getElementById(id).innerHTML += letters[i];
+        document.getElementById(id).innerHTML += chars[i];
         i++;        
     }
 
     return;
 }
 
-async function deleteWord(id, delay) {
-    const word = document.getElementById(id);
-    const letters = word.innerHTML.split("");
+async function deleteText(id, delay) {
+    const text = document.getElementById(id);
+    const chars = text.innerHTML.split("");
     let i = 0;
 
-    while (letters.length > 0) {
+    while (chars.length > 0) {
         await wait(delay);
-        letters.pop();
-        word.innerHTML = letters.join("");
+        chars.pop();
+        text.innerHTML = chars.join("");
         i--;
     }
 }
 
-async function wordAnimation(word, id, delay) {
+async function typingAnimation(carouselList, id) {
+    let i = 0;
+
     while (true) {
-        await typeWord(word, id, delay);
-        await wait(1500);
-        await deleteWord(id, delay);
-        await wait(500);
+        await typeText(carouselList[i], id, 100);
+        await wait(2500);
+        await deleteText(id, 100);
+        await wait(2000);
+
+        i++;
+
+        if (i >= carouselList.length) {i = 0;}
     }
 }
 
-wordAnimation("Trine.", "name", 200);
+
+const carouselText = [
+    "software engineering",
+    "machine learning",
+    "full-stack web development",
+    "big data"
+]
+
+typingAnimation(carouselText, "typewriter__text");
 
 // SLIDESHOW
 

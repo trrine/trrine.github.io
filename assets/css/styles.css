@@ -70,9 +70,36 @@ h3 {
     padding-right: 20px;
   } 
 
-#name {
+#typewriter__text {
     color:#b5a7ff;
 }
+
+#typing__wrapper {
+    align-items: center;
+    color: #333333;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 600;
+    justify-content: center;
+    padding: 20px 20px  0 20px;
+    text-align: center;
+}
+
+#input-cursor {
+    animation: blink .6s linear infinite alternate;
+    background-color:#b5a7ff;
+    display: inline-block;
+    height: 42px;
+    margin-left: 4px;
+    width: 3px;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
 
 #intro {
     align-content: center;
