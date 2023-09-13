@@ -4,7 +4,7 @@ My personal portfolio website showcasing my skills and projects. Currently in pr
 ## Built With 
 - HTML
 - CSS
-- JavaScript
+- TypeScript
 
 ## Acknowledgments
 - Contact form by [Formspree](https://formspree.io/)
