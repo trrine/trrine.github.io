@@ -151,6 +151,7 @@ topButton.onclick = function(e: Event): void {
 }
 
 // CLEAR FORM 
+
 function clearForm() {
     (document.getElementById("name__field") as HTMLInputElement).value = "";
     (document.getElementById("email__field") as HTMLInputElement).value = "";
