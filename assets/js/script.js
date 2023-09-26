@@ -73,9 +73,9 @@ const carouselText = [
 typingAnimation(carouselText, "typewriter__text");
 // SLIDESHOW
 // Arrays to keep track of slide indices and element IDs
-let slideIndex = [1, 1];
-let slideId = ["slides-1", "slides-2"];
-let dotId = ["slides-1__dot", "slides-2__dot"];
+let slideIndex = [1, 1, 1];
+let slideId = ["slides-1", "slides-2", "slides-3"];
+let dotId = ["slides-1__dot", "slides-2__dot", "slides-3__dot"];
 // Function to display slides within a slide set
 function showSlides(slideIndexToDisplay, slideSetIndex) {
     let images = document.getElementsByClassName(slideId[slideSetIndex]);
@@ -109,6 +109,7 @@ function currentSlide(slideIndexToDisplay, slideSetIndex) {
 // Initialize slideshows
 showSlides(1, 0);
 showSlides(1, 1);
+showSlides(1, 2);
 // SCROLL TO TOP BUTTON
 const topButton = document.getElementById("top__button");
 // Function to handle scrolling and show/hide the scroll-to-top button

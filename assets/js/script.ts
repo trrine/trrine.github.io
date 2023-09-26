@@ -72,9 +72,9 @@ typingAnimation(carouselText, "typewriter__text");
 // SLIDESHOW
 
 // Arrays to keep track of slide indices and element IDs
-let slideIndex: number[] = [1, 1];
-let slideId: string[] = ["slides-1", "slides-2"];
-let dotId: string[] = ["slides-1__dot", "slides-2__dot"];
+let slideIndex: number[] = [1, 1, 1];
+let slideId: string[] = ["slides-1", "slides-2", "slides-3"];
+let dotId: string[] = ["slides-1__dot", "slides-2__dot", "slides-3__dot"];
 
 // Function to display slides within a slide set
 function showSlides(slideIndexToDisplay: number, slideSetIndex: number): void {
@@ -117,6 +117,7 @@ function currentSlide(slideIndexToDisplay: number, slideSetIndex: number): void 
 // Initialize slideshows
 showSlides(1, 0);
 showSlides(1, 1);
+showSlides(1, 2);
 
 // SCROLL TO TOP BUTTON
 

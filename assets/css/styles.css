@@ -233,8 +233,8 @@ ABOUT ME SECTION
 }
 
 #skills__list img {
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
 }
 
 #skills__list {
@@ -377,7 +377,7 @@ PROJECTS SECTION
     margin: auto;
 }
 
-.slides-1, .slides-2 {
+.slides-1, .slides-2, .slides-3 {
     display: none;
 }
 
