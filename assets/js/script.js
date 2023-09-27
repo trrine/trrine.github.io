@@ -69,7 +69,7 @@ const carouselText = [
     "full-stack web development",
     "big data analytics"
 ];
-// Initialize the typing animation
+// Initialise the typing animation
 typingAnimation(carouselText, "typewriter__text");
 // SLIDESHOW
 // Arrays to keep track of slide indices and element IDs

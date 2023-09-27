@@ -66,7 +66,7 @@ const carouselText: string[] = [
     "big data analytics"
 ]
 
-// Initialize the typing animation
+// Initialise the typing animation
 typingAnimation(carouselText, "typewriter__text");
 
 // SLIDESHOW
