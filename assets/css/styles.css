@@ -536,3 +536,47 @@ TO-TOP BUTTON
     visibility: hidden;
     opacity: 0;
 }
+
+/*==================================================
+SMARTPHONE RESPONSIVENESS
+==================================================*/ 
+
+@media (max-width: 768px) {
+    .section__title {
+        font-size: 3rem; 
+        padding-top: 20px;
+    }
+
+    .project-description {
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .slideshow__caption {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    form {
+        width: 400px;
+    }
+
+    #skills__list img {
+        height: 60px;
+        width: 60px;
+    }
+
+    #skills__list {
+        width: 80%;
+    }
+
+    .project__title {
+        font-size: 26px;
+    }
+
+    #resume__link {
+        display: block;
+        text-align: center;
+    }
+}
