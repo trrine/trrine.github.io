@@ -15,4 +15,3 @@ My personal portfolio website showcasing my skills and projects. Work in progres
 - Add more projects
 - Make responsive
 - Add project filtering functionality
-- Add onclick functionality to gallery dots
