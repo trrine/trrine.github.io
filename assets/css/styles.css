@@ -579,4 +579,12 @@ SMARTPHONE RESPONSIVENESS
         display: block;
         text-align: center;
     }
+
+    #intro__h1 {
+        font-size: 3rem;
+    }
+
+    #typing__wrapper {
+        font-size: 26px;
+    }
 }
