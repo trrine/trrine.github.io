@@ -114,7 +114,7 @@ function currentSlide(slideIndexToDisplay: number, slideSetIndex: number): void 
     showSlides((slideIndex[slideSetIndex] = slideIndexToDisplay), slideSetIndex);
 }
 
-// Initialize slideshows
+// Initialise slideshows
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
