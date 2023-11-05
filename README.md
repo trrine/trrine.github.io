@@ -13,5 +13,4 @@ My personal portfolio website showcasing my skills and projects. Work in progres
 
 ## TO DO:
 - Add more projects
-- Make responsive
 - Add project filtering functionality
