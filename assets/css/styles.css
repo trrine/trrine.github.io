@@ -89,7 +89,7 @@ h3 {
     flex-wrap: wrap;
 }
 
-#typewriter-start, #typewriter__text {
+#typewriter-start, #typewriter__text, #input-cursor {
     white-space: normal;
 }
 
