@@ -6,7 +6,7 @@ function getEmailLink(): string {
     return "mailto:" + local + "@" + domain;
 }
 
-// NAME TYPEWRITER FUNCTIONS
+// TYPEWRITER FUNCTIONS
 
 // Function to introduce a delay in milliseconds using Promises
 function wait(ms: number): Promise<void> {
