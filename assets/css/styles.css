@@ -83,11 +83,10 @@ h3 {
     justify-content: center;
     padding: 20px 20px  0 20px;
     text-align: center;
-}
-
-#typewriter-start {
     white-space: nowrap;
 }
+
+
 
 #input-cursor {
     animation: blink .6s linear infinite alternate;
