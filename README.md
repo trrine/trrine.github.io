@@ -10,7 +10,3 @@ My personal portfolio website showcasing my skills and projects. Work in progres
 - Contact form by [Formspree](https://formspree.io/)
 - Technology icons by [Devicon](https://devicon.dev/)
 - Social media icons by [IconScout](https://iconscout.com/unicons)
-
-## TO DO:
-- Add more projects
-- Add project filtering functionality
