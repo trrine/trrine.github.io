@@ -616,5 +616,13 @@ SMARTPHONE RESPONSIVENESS
 
     input, textarea {
         font-size: 16px;
-    }    
+    }
+    
+    h1 {
+        font-size: 4em;
+    }
+
+    #intro__h1 {
+        font-size: 2em;
+    }
 }
