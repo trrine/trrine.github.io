@@ -6,7 +6,7 @@ My personal portfolio website showcasing my skills and projects.
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 - ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-## Acknowledgments
+## Acknowledgements
 - Contact form by [Formspree](https://formspree.io/)
 - Technology icons by [Devicon](https://devicon.dev/)
 - Social media icons by [IconScout](https://iconscout.com/unicons)
