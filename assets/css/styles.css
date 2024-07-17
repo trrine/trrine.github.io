@@ -268,15 +268,17 @@ ABOUT ME SECTION
 }
 
 #resume__link {
-    color:#b5a7ff;
     font-size: 1.2em;
+}
+
+.highlight-link {
+    color:#b5a7ff;
     font-weight: bold;
     text-decoration: none;
 }
 
-#resume__link:hover {
+.highlight-link:hover {
     color:#927ff0;
-    transform: scale(1.2);
 }
 
 .socials__item {
